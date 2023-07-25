@@ -1,0 +1,28 @@
+[global]
+monitor = 0
+follow = keyboard
+width = (0, 512)
+height = 350
+frame_width = 0
+offset = 10x29
+padding = 15
+horizontal_padding = 15
+transparency = 25
+font = Hack 10
+format = "<b>%s</b>\n%b"
+
+[urgency_low]
+background = "#2f343f"
+foreground = "#e1e3e7"
+timeout = 3
+
+[urgency_normal]
+background = "#2f343f"
+foreground = "#e1e3e7"
+timeout = 5
+
+[urgency_critical]
+background = "#2f343f"
+foreground = "#e1e3e7"
+frame_color = "fda685"
+timeout = 10
