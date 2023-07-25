@@ -3,7 +3,7 @@
 Denshi's dotfiles and autoconfig script.
 (For Arch-based Linux Distributions)
 <br>
-<img src="screenshot.webp" alt="A screenshot" height="300px">
+<img src="plain/screenshot.webp" alt="A screenshot" height="300px">
 
 # What configs does it have?
 
@@ -18,4 +18,4 @@ Denshi's dotfiles and autoconfig script.
 * zathura (Colors and clipboard selection)
 
 # What about the scripts? (like cvrt)
-All of my scripts are located in my [Scripts repository.](https://codeberg.org/Denshi/Scripts)
+All of my scripts are located in my [Scripts repository.](/Scripts)
