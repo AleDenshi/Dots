@@ -3,7 +3,7 @@
 Denshi's dotfiles and autoconfig script.
 (For Arch-based Linux Distributions)
 <br>
-<img src="plain/screenshot.webp" alt="A screenshot" height="300px">
+<img src="../plain/screenshot.webp" alt="A screenshot" height="300px">
 
 # What configs does it have?
 
