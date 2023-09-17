@@ -26,7 +26,7 @@
 dwm.normbgcolor: #2f343f
 dwm.normbordercolor: #2f343f
 dwm.normfgcolor: #e1e3e7
-dwm.selbordercolor: #2f343f 
+dwm.selbordercolor: #404552
 dwm.selbgcolor: #404552
 dwm.selfgcolor: #fafafa
 
