@@ -1,4 +1,4 @@
-*.font: Hack:size=12
+*.font: Hack:size=11
 
 /* !! denshichrome: */
 *.background: #2f343f
@@ -29,4 +29,3 @@ dwm.normfgcolor: #e1e3e7
 dwm.selbordercolor: #404552
 dwm.selbgcolor: #404552
 dwm.selfgcolor: #fafafa
-
