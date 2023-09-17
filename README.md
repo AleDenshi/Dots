@@ -7,10 +7,8 @@ Denshi's dotfiles and autoconfig script.
 
 # What configs does it have?
 
-* Suckless' DWM (Colors, keybinds and a system tray)
 * Zsh (Prompt and syntax-highlighting)
 * GTK (Arc Dark theme)
-* QT (Arc Dark theme, from Kvantum)
 * htop (Minimal layout)
 * dunst (Colors and dimensions)
 * mpv (Disable pitch correction)
@@ -19,3 +17,7 @@ Denshi's dotfiles and autoconfig script.
 
 # What about the scripts? (like cvrt)
 All of my scripts are located in my [Scripts repository.](/Scripts)
+
+
+# What about the programs? (dwm, st)
+You can find dwm in the [dwm repostory,](/dwm) and st in the [st repository.](/st).

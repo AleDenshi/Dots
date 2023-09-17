@@ -4,7 +4,7 @@ source ~/.config/shell/aliasrc
 bindkey -e
 
 # History
-HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
+HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/history"
 HISTSIZE=1000
 SAVEHIST=1000
 
