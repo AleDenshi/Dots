@@ -1,4 +1,4 @@
-*.font: Hack:size=11
+*.font: Hack:size=11.5
 
 /* !! denshichrome: */
 *.background: #2f343f
