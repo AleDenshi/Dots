@@ -1,6 +1,6 @@
 #!/bin/sh
-userresources=$HOME/.Xresources
-usermodmap=$HOME/.Xmodmap
+userresources=$HOME/.config/xresources
+usermodmap=$HOME/.config/xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
@@ -10,26 +10,22 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 [ -f "$userresources" ] && xrdb -merge "$userresources"
 [ -f "$usermodmap" ] && xmodmap "$usermodmap"
 
-# Setting NVIDIA on for Optimus laptops
-# xrandr --setprovideroutputsource modesetting NVIDIA-0
-xrandr --setprovideroutputsource Intel Intel
+# Automatically set dpi
 xrandr --auto
 xrandr --dpi 96
 
 # Other things
-dbus-update-activation-environment --systemd DISPLAY
 export SSH_AUTH_SOCK
 export XDG_SESSION_TYPE=X11
-export QT_QPA_PLATFORMTHEME=qt5ct
-export QT_STYLE_OVERRIDE=kvantum
+export GDK_BACKEND=x11
+export GTK_THEME="Arc-Dark"
+export QT_QPA_PLATFORMTHEME=gtk
 
 # Start programs
+gnome-keyring-daemon --start --foreground --components=secrets &
 dwmblocks &
-/usr/bin/pipewire &
-/usr/bin/pipewire-pulse &
-/usr/bin/wireplumber &
+pipewire &
+pipewire-pulse &
+wireplumber &
 nm-applet &
-[ grep -v /sys/class/power_supply/BAT0/status "Discharging" ] && xcompmgr &
-hsetroot -fill ~/.local/share/backgrounds/field.jpg &
-exec dwm
-
+exec dbus-launch dwm
