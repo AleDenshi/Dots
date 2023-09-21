@@ -28,4 +28,5 @@ pipewire &
 pipewire-pulse &
 wireplumber &
 nm-applet &
+xwallpaper --zoom ~/.local/share/backgrounds/day.jpg &
 exec dbus-launch dwm

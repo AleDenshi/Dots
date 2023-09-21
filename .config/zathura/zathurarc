@@ -1,5 +1,13 @@
 set selection-clipboard clipboard
 set font Hack
-set inputbar-bg	\#404552
-set statusbar-bg	\#404552
-set default-bg \#2f343f
+
+set inputbar-bg			"#404552"
+set statusbar-bg		"#404552"
+set default-bg			"#2f343f"
+set highlight-color		"#4084d6"
+set recolor-lightcolor	"#2f343f"
+set recolor-darkcolor	"#e1e3e7"
+
+# Switch this to "true" for a default dark mode
+set recolor "false"
+set recolor-keephue "true"
