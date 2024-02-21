@@ -25,6 +25,11 @@ user_pref("browser.privateWindowSeparation.enabled", true);
 user_pref("privacy.resistFingerprinting.letterboxing", false);
 
 // Keep sessions
-user_pref("privacy.clearOnShutdown.sessions", false);
+user_pref("privacy.clearOnShutdown.sessions", true);
 user_pref("privacy.clearOnShutdown.cookies", false);
 user_pref("privacy.clearOnShutdown.offlineApps", false);
+
+user_pref("browser.sessionstore.max_resumed_crashes", 0);
+user_pref("browser.sessionstore.resume_from_crash", false);
+user_pref("webgl.disabled", false);
+user_pref("privacy.resistFingerprinting", false);

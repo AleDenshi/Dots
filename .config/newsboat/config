@@ -1,6 +1,0 @@
-browser		xdg-open
-notify-always	yes
-notify-program	"/usr/bin/notify-send"
-notify-format	"Newsboat: %d new articles"
-highlight feedlist "---.*---" yellow default bold
-highlight feedlist ".*0/0.." default default invis
