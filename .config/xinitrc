@@ -20,9 +20,10 @@ export XDG_SESSION_TYPE=X11
 export GDK_BACKEND=x11
 export GTK_THEME="Arc-Dark"
 export QT_QPA_PLATFORMTHEME=gtk
+# Fix misbehaving Java apps
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Start programs
-gnome-keyring-daemon --start --foreground --components=secrets &
 dwmblocks &
 pipewire &
 pipewire-pulse &
