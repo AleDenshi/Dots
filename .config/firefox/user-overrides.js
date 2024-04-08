@@ -17,6 +17,7 @@ user_pref("browser.urlbar.groupLabels.enabled", false);
 
 // Let the user enable compact mode (More tools --> Customize Toolbar --> Density)
 user_pref("browser.compactmode.show", true);
+user_pref("browser.uidensity", 1);
 
 // Set to 'false' to let private tabs mingle with normal tabs
 user_pref("browser.privateWindowSeparation.enabled", true);
