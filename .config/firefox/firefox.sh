@@ -12,7 +12,6 @@ profile="$(sed -n "/Default=.*.default-release/ s/.*=//p" "$profilesini")"
 overrides="$2"
 [ -z "$2" ] && overrides="$HOME/.config/firefox/user-overrides.js"
 
-
 # Stop Firefox
 pkill firefox
 
@@ -21,10 +20,11 @@ arkenfox="$pdir/arkenfox.js"
 curl "https://raw.githubusercontent.com/arkenfox/user.js/master/user.js" > "$arkenfox"
 userjs="$pdir/user.js"
 
+# Apply Arkenfox and the overrides
 cat "$arkenfox" "$overrides" > "$userjs"
 
 # Install extensions
-addonlist="ublock-origin decentraleyes istilldontcareaboutcookies"
+addonlist="ublock-origin decentraleyes istilldontcareaboutcookies framelessapp-ext"
 addontmp="$(mktemp -d)"
 trap "rm -fr $addontmp" HUP INT QUIT TERM PWR EXIT
 IFS=' '
