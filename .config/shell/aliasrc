@@ -1,8 +1,8 @@
 #!/bin/sh
 
 alias \
-		  ls="ls -hN --color=auto --group-directories-first" \
-		  grep="grep --color=auto" \
-		  diff="diff --color=auto" \
-		  ffmpeg="ffmpeg -hide_banner" \
-		  dmenu="dmenu -fn Hack:size=10 -nb '#2f343f' -nf '#e1e3e7' -sb '#404552' -sf '#fafafa'"
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ffmpeg="ffmpeg -hide_banner" \
+	dmenu="dmenu -fn Hack:size=10 -nb '#2f343f' -nf '#e1e3e7' -sb '#404552' -sf '#fafafa'"

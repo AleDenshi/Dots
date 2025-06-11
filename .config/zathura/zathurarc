@@ -1,6 +1,7 @@
 set selection-clipboard clipboard
 set font Hack
 
+# Custom Denshi theme
 set inputbar-bg			"#404552"
 set statusbar-bg		"#404552"
 set default-bg			"#2f343f"

@@ -24,7 +24,7 @@ userjs="$pdir/user.js"
 cat "$arkenfox" "$overrides" > "$userjs"
 
 # Install extensions
-addonlist="ublock-origin decentraleyes istilldontcareaboutcookies framelessapp-ext new-window-without-toolbar"
+addonlist="ublock-origin decentraleyes istilldontcareaboutcookies new-window-without-toolbar"
 addontmp="$(mktemp -d)"
 trap "rm -fr $addontmp" HUP INT QUIT TERM PWR EXIT
 IFS=' '

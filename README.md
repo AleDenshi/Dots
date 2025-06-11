@@ -1,6 +1,6 @@
 # What is this?
 
-Denshi's dotfiles and autoconfig script.
+Denshi's dotfiles/configurations.
 (For Arch-based Linux Distributions)
 <br>
 
@@ -9,8 +9,8 @@ Denshi's dotfiles and autoconfig script.
 # What configs does it have?
 
 * Zsh (Custom prompt and syntax-highlighting)
-* Firefox (Arkenfox installation script and user overrides)
-* nsxiv (Colors and fonts)
+* Firefox (Arkenfox installation script, user overrides and addons)
+* Xresources (My own custom theme, which applies to any Xresources-compatible program)
 * GTK 2 and 3 (Arc Dark theme)
 * `aliasrc` (Disable FFMPEG banner and configure colors and fonts)
 * `profile` (Set important variables and add `.local/bin/` to `$PATH` for [Scripts](https://github.com/AleDenshi/Scripts))
