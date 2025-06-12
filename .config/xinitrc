@@ -28,5 +28,5 @@ dwmblocks &
 pipewire &
 pipewire-pulse &
 wireplumber &
-hsetroot -fill ~/.local/share/backgrounds/day.jpg &
+hsetroot -fill ~/.local/share/backgrounds/cars.jpg &
 exec dbus-launch dwm
