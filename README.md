@@ -11,7 +11,7 @@ Denshi's dotfiles/configurations.
 * Zsh (Custom prompt and syntax-highlighting)
 * Firefox (Arkenfox installation script, user overrides and addons)
 * Xresources (My own custom theme, which applies to any Xresources-compatible program)
-* GTK 2 and 3 (Arc Dark theme)
+* GTK 2 and 3 (`arc-gtk-theme` and `oxygen-icons`)
 * `aliasrc` (Disable FFMPEG banner and configure colors and fonts)
 * `profile` (Set important variables and add `.local/bin/` to `$PATH` for [Scripts](https://github.com/AleDenshi/Scripts))
 * GnuPG (Set GPG agent)
