@@ -4,6 +4,9 @@ user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("browser.urlbar.suggest.trending", false);
 // Various settings for URL suggestions 
 user_pref("browser.urlbar.suggest.weather", false);
+user_pref("browser.urlbar.suggest.wikipedia", false);
+user_pref("browser.urlbar.suggest.sports, false);
+user_pref("browser.urlbar.suggest.yelp", false);
 user_pref("browser.urlbar.suggest.engines", false);
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.bookmark", true);
@@ -42,3 +45,4 @@ user_pref("webgl.disabled", false);
 
 // Disable resistFingerprinting (enable for more privacy)
 user_pref("privacy.resistFingerprinting", false);
+
