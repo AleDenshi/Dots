@@ -4,9 +4,6 @@ user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("browser.urlbar.suggest.trending", false);
 // Various settings for URL suggestions 
 user_pref("browser.urlbar.suggest.weather", false);
-user_pref("browser.urlbar.suggest.wikipedia", false);
-user_pref("browser.urlbar.suggest.sports, false);
-user_pref("browser.urlbar.suggest.yelp", false);
 user_pref("browser.urlbar.suggest.engines", false);
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.bookmark", true);
@@ -36,6 +33,8 @@ user_pref("privacy.resistFingerprinting.letterboxing", false);
 user_pref("privacy.clearOnShutdown.sessions", true);
 user_pref("privacy.clearOnShutdown.cookies", false);
 user_pref("privacy.clearOnShutdown_v2.cookiesAndStorage", false);
+user_pref("privacy.sanitize.timeSpan", 1);
+user_pref("privacy.sanitize.sanitizeOnShutdown", false);
 user_pref("privacy.clearOnShutdown.offlineApps", false);
 user_pref("browser.sessionstore.max_resumed_crashes", 0);
 user_pref("browser.sessionstore.resume_from_crash", false);
