@@ -1,6 +1,6 @@
 #!/bin/sh
 
-browserdir="$HOME/.mozilla/firefox"
+browserdir="$XDG_CONFIG_HOME/mozilla/firefox"
 profilesini="$browserdir/profiles.ini"
 
 firefox --headless >/dev/null 2>&1 &
